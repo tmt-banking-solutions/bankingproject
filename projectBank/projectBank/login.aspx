@@ -30,7 +30,7 @@
                         <asp:TextBox ID="tbusername" runat="server"></asp:TextBox>
                     </td>
                     <td class="auto-style10">
-                      <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="username required" ControlToValidate="tbpassword"></asp:RequiredFieldValidator>
+                      <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="username required" ControlToValidate="tbpassword" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
@@ -39,7 +39,7 @@
                         <asp:TextBox ID="tbpassword" runat="server"></asp:TextBox>
                     </td>
                     <td class="auto-style10">
-                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="password requried" ControlToValidate="tbusername"></asp:RequiredFieldValidator>
+                        <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="password requried" ControlToValidate="tbusername" ForeColor="#CC0000"></asp:RequiredFieldValidator>
                     </td>
                 </tr>
                 <tr>
