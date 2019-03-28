@@ -15,6 +15,17 @@
         .auto-style5 {
             width: 128px;
         }
+        .auto-style6 {
+            width: 113px;
+            height: 23px;
+        }
+        .auto-style7 {
+            width: 128px;
+            height: 23px;
+        }
+        .auto-style8 {
+            height: 23px;
+        }
     </style>
 </head>
 <body>
@@ -68,6 +79,14 @@
                         <td>
                             <asp:RequiredFieldValidator ID="RequiredFieldValidator6" runat="server" ErrorMessage="Confirm Password is required" ControlToValidate="tbconfirm" ForeColor="Red"></asp:RequiredFieldValidator>
                             <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="Must match password" ControlToCompare="tbpassword" ControlToValidate="tbconfirm" ForeColor="Red"></asp:CompareValidator>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="auto-style6"></td>
+                        <td class="auto-style7">
+                            <asp:Button ID="btnSubmit" runat="server" Text="Submit" />
+                        </td>
+                        <td class="auto-style8">
                         </td>
                     </tr>
                 </table>
